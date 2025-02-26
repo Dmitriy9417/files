@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import static Games.Game.logMessage;
+import static Games.src.main.Main.logMessage;
+
 
 public class GameProgress implements Serializable {
     private static final long serialVersionUID = 1L;
