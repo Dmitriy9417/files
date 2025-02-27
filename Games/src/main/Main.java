@@ -1,7 +1,5 @@
 package Games.src.main;
 
-import Games.GameProgress;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -10,8 +8,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static Games.GameProgress.saveGame;
-import static Games.GameProgress.zipFiles;
+import static Games.src.main.GameProgress.saveGame;
+import static Games.src.main.GameProgress.zipFiles;
 
 
 public class Main {
